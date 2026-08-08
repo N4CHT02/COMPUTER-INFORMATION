@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Information - Storage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="blob-1"></div>
+    <div class="blob-2"></div>
+
+    <div class="app-wrapper">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-label"><span>☰</span></label>
+        <div class="overlay"></div>
+
+        <nav class="sidebar glass">
+            <div style="margin-bottom: 24px;">
+                <h2 style="color: #00b4ff; font-size: 18px;">⌘</h2>
+                <p style="color: rgba(255,255,255,0.2); font-size: 11px;">COMPUTER INFO</p>
+            </div>
+            <div class="sidebar-title">Main</div>
+            <a href="index.html">🏠 Home</a>
+            <a href="basics.html">📖 Computer Basics</a>
+            <div class="sidebar-title">Components</div>
+            <a href="cpu.html">⚡ CPU</a>
+            <a href="gpu.html">🎮 GPU</a>
+            <a href="ram.html">🧠 RAM</a>
+            <a href="storage.html" class="active">💾 Storage</a>
+            <a href="psu.html">🔌 PSU</a>
+            <a href="motherboard.html">📟 Motherboard</a>
+            <a href="case.html">🖥️ PC Case</a>
+            <div class="sidebar-title">Peripherals</div>
+            <a href="keyboard.html">⌨️ Keyboard</a>
+            <a href="mouse.html">🖱️ Mouse</a>
+            <div class="sidebar-title">Computers</div>
+            <a href="laptop.html">💻 Laptop</a>
+            <a href="desktop.html">🖥️ Desktop</a>
+            <div class="sidebar-title">Information</div>
+            <a href="glossary.html">📚 Glossary</a>
+            <a href="about.html">ℹ️ About</a>
+        </nav>
+
+        <div class="main-content">
+            <header class="header glass">
+                <h1>COMPUTER INFORMATION</h1>
+                <p>Computer Parts, Classes &amp; Specifications</p>
+            </header>
+
+            <div class="page-content glass">
+                <h2>💾 Storage - Memory for Your Data</h2>
+                <p>Storage is where your computer permanently keeps data. Unlike RAM (which is temporary), storage retains data even when the computer is turned off. Your operating system, applications, games, and personal files all live on storage devices.</p>
+                <p><strong>Memory vs Storage:</strong> Memory (RAM) is fast but temporary. Storage is slower but permanent. Your computer loads data from storage into RAM when it needs to work with it.</p>
+                <p><strong>HDD vs SSD:</strong> Hard Disk Drives use spinning disks and are slower but cheaper. Solid State Drives use flash memory and are much faster. <strong>SATA vs NVMe:</strong> SATA is the older connection standard (slower), while NVMe uses PCIe (much faster).</p>
+
+                <!-- HDD -->
+                <div class="class-section glass">
+                    <h4>HDD - Hard Disk Drive</h4>
+                    <p class="class-subtitle">Purpose: Bulk storage, archival, budget builds</p>
+                    <p>HDDs use spinning magnetic platters to store data. They're affordable and offer massive storage capacities but are much slower than SSDs. HDDs are great for storing large files like videos, photos, and game libraries.</p>
+
+                   
+                    <div class="image-grid">
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/hdd/hdd.webp"></span></div>
+                            <div class="img-name">1TB 7200RPM HDD</div>
+                            <div class="img-desc">Hard Disk Drive</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/hdd/hdd.webp"></span></div>
+                            <div class="img-name">2TB 5400RPM HDD</div>
+                            <div class="img-desc">Hard Disk Drive</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/hdd/hdd.webp"></span></div>
+                            <div class="img-name">4TB 7200RPM HDD</div>
+                            <div class="img-desc">Hard Disk Drive</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/hdd/hdd.webp"></span></div>
+                            <div class="img-name">8TB Archive HDD</div>
+                            <div class="img-desc">Hard Disk Drive</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/hdd/hdd.webp"></span></div>
+                            <div class="img-name">2.5" Laptop HDD</div>
+                            <div class="img-desc">Hard Disk Drive</div>
+                        </div>
+                    </div>
+
+                    <table class="specs-table">
+                        <tr><th>Type</th><td>HDD (Mechanical)</td></tr>
+                        <tr><th>Speed</th><td>5400 - 7200 RPM</td></tr>
+                        <tr><th>Capacity</th><td>250GB - 20TB+</td></tr>
+                        <tr><th>Interface</th><td>SATA</td></tr>
+                        <tr><th>Read Speed</th><td>~100-200 MB/s</td></tr>
+                        <tr><th>Write Speed</th><td>~80-180 MB/s</td></tr>
+                        <tr><th>Advantages</th><td>Cheap, high capacity, good for archives</td></tr>
+                        <tr><th>Limitations</th><td>Slow, mechanical, noisy, fragile</td></tr>
+                    </table>
+                </div>
+
+                <!-- SATA SSD -->
+                <div class="class-section glass">
+                    <h4>SATA SSD</h4>
+                    <p class="class-subtitle">Purpose: Fast OS and application storage, upgrades</p>
+                    <p>SATA SSDs use flash memory and the SATA interface. They're significantly faster than HDDs and are a great upgrade for older systems. While slower than NVMe drives, they're still much faster than any mechanical drive.</p>
+
+                  
+                    <div class="image-grid">
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/sata-ssd/sata ssd.webp"></span></div>
+                            <div class="img-name">SATA SSD 2.5" 256GB</div>
+                            <div class="img-desc">SATA SSD</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/sata-ssd/sata ssd.webp"></span></div>
+                            <div class="img-name">SATA SSD 2.5" 512GB</div>
+                            <div class="img-desc">SATA SSD</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/sata-ssd/sata ssd.webp"></span></div>
+                            <div class="img-name">SATA SSD 2.5" 1TB</div>
+                            <div class="img-desc">SATA SSD</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/sata-ssd/sata ssd.webp"></span></div>
+                            <div class="img-name">SATA SSD 2.5" 2TB</div>
+                            <div class="img-desc">SATA SSD</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/sata-ssd/sata ssd.webp"></span></div>
+                            <div class="img-name">mSATA SSD</div>
+                            <div class="img-desc">SATA SSD (small form factor)</div>
+                        </div>
+                    </div>
+
+                    <table class="specs-table">
+                        <tr><th>Type</th><td>SATA SSD</td></tr>
+                        <tr><th>Capacity</th><td>120GB - 8TB</td></tr>
+                        <tr><th>Interface</th><td>SATA III (6 Gbps)</td></tr>
+                        <tr><th>Form Factor</th><td>2.5", mSATA</td></tr>
+                        <tr><th>Read Speed</th><td>~500-560 MB/s</td></tr>
+                        <tr><th>Write Speed</th><td>~450-530 MB/s</td></tr>
+                        <tr><th>Advantages</th><td>Good for OS, reliable, affordable</td></tr>
+                        <tr><th>Limitations</th><td>Slower than NVMe, limited by SATA speed</td></tr>
+                    </table>
+                </div>
+
+                <!-- NVMe SSD -->
+                <div class="class-section glass">
+                    <h4>NVMe SSD</h4>
+                    <p class="class-subtitle">Purpose: High-performance storage, gaming, professional use</p>
+                    <p>NVMe SSDs use the PCIe interface, offering dramatically faster speeds than SATA drives. They're ideal for gamers, content creators, and professionals who need maximum storage performance.</p>
+
+                  
+                    <div class="image-grid">
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/nvme-ssd/nvme.webp"></span></div>
+                            <div class="img-name">NVMe M.2 500GB</div>
+                            <div class="img-desc">NVMe SSD</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/nvme-ssd/nvme.webp"></span></div>
+                            <div class="img-name">NVMe M.2 1TB</div>
+                            <div class="img-desc">NVMe SSD</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/nvme-ssd/nvme.webp"></span></div>
+                            <div class="img-name">NVMe M.2 2TB</div>
+                            <div class="img-desc">NVMe SSD</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/nvme-ssd/nvme.webp"></span></div>
+                            <div class="img-name">PCIe 4.0 NVMe SSD</div>
+                            <div class="img-desc">NVMe SSD</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/nvme-ssd/nvme.webp"></span></div>
+                            <div class="img-name">PCIe 5.0 NVMe SSD</div>
+                            <div class="img-desc">NVMe SSD</div>
+                        </div>
+                    </div>
+
+                    <table class="specs-table">
+                        <tr><th>Type</th><td>NVMe SSD</td></tr>
+                        <tr><th>Capacity</th><td>250GB - 8TB+</td></tr>
+                        <tr><th>Interface</th><td>PCIe 3.0/4.0/5.0</td></tr>
+                        <tr><th>Form Factor</th><td>M.2, U.2, Add-in card</td></tr>
+                        <tr><th>Read Speed</th><td>3,500 - 14,000+ MB/s</td></tr>
+                        <tr><th>Write Speed</th><td>3,000 - 12,000+ MB/s</td></tr>
+                        <tr><th>Advantages</th><td>Extremely fast, compact, no cables</td></tr>
+                        <tr><th>Limitations</th><td>More expensive, limited slots</td></tr>
+                    </table>
+                </div>
+
+                <!-- External Storage -->
+                <div class="class-section glass">
+                    <h4>External Storage</h4>
+                    <p class="class-subtitle">Purpose: Backups, portability, additional storage</p>
+                    <p>External storage connects via USB (or Thunderbolt) for portable storage, backups, and data transfer. Options include external HDDs, external SSDs, and flash drives. They're essential for moving files and protecting data.</p>
+
+                    <h5 style="color: #7bc8ff; margin: 12px 0 8px;">5 Image Examples</h5>
+                    <div class="image-grid">
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/external/external.webp"></span></div>
+                            <div class="img-name">External 1TB HDD</div>
+                            <div class="img-desc">External storage</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/external/external.webp"></span></div>
+                            <div class="img-name">External 512GB SSD</div>
+                            <div class="img-desc">External storage</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/external/external.webp"></span></div>
+                            <div class="img-name">USB 3.2 Flash Drive</div>
+                            <div class="img-desc">External storage</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/external/external.webp"></span></div>
+                            <div class="img-name">Thunderbolt SSD</div>
+                            <div class="img-desc">External storage</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="storage/external/external.webp"></span></div>
+                            <div class="img-name">Network Attached Storage</div>
+                            <div class="img-desc">External storage</div>
+                        </div>
+                    </div>
+
+                    <table class="specs-table">
+                        <tr><th>Type</th><td>External Storage</td></tr>
+                        <tr><th>Capacity</th><td>32GB - 20TB+</td></tr>
+                        <tr><th>Interface</th><td>USB 3.0/3.1/3.2, Thunderbolt</td></tr>
+                        <tr><th>Read Speed</th><td>Varies (100-3000+ MB/s)</td></tr>
+                        <tr><th>Write Speed</th><td>Varies (80-2800+ MB/s)</td></tr>
+                        <tr><th>Advantages</th><td>Portable, easy backups, versatile</td></tr>
+                        <tr><th>Limitations</th><td>Slower than internal, extra cable</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

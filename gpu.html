@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Information - GPU</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="blob-1"></div>
+    <div class="blob-2"></div>
+
+    <div class="app-wrapper">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-label"><span>☰</span></label>
+        <div class="overlay"></div>
+
+        <nav class="sidebar glass">
+            <div style="margin-bottom: 24px;">
+                <h2 style="color: #00b4ff; font-size: 18px;">⌘</h2>
+                <p style="color: rgba(255,255,255,0.2); font-size: 11px;">COMPUTER INFO</p>
+            </div>
+            <div class="sidebar-title">Main</div>
+            <a href="index.html">🏠 Home</a>
+            <a href="basics.html">📖 Computer Basics</a>
+            <div class="sidebar-title">Components</div>
+            <a href="cpu.html">⚡ CPU</a>
+            <a href="gpu.html" class="active">🎮 GPU</a>
+            <a href="ram.html">🧠 RAM</a>
+            <a href="storage.html">💾 Storage</a>
+            <a href="psu.html">🔌 PSU</a>
+            <a href="motherboard.html">📟 Motherboard</a>
+            <a href="case.html">🖥️ PC Case</a>
+            <div class="sidebar-title">Peripherals</div>
+            <a href="keyboard.html">⌨️ Keyboard</a>
+            <a href="mouse.html">🖱️ Mouse</a>
+            <div class="sidebar-title">Computers</div>
+            <a href="laptop.html">💻 Laptop</a>
+            <a href="desktop.html">🖥️ Desktop</a>
+            <div class="sidebar-title">Information</div>
+            <a href="glossary.html">📚 Glossary</a>
+            <a href="about.html">ℹ️ About</a>
+        </nav>
+
+        <div class="main-content">
+            <header class="header glass">
+                <h1>COMPUTER INFORMATION</h1>
+                <p>Computer Parts, Classes &amp; Specifications</p>
+            </header>
+
+            <div class="page-content glass">
+                <h2>🎮 GPU - Graphics Processing Unit</h2>
+                <p>The GPU, or Graphics Processing Unit, is a specialized processor designed to accelerate graphics rendering. Originally created for gaming and 3D graphics, GPUs are now essential for video editing, AI workloads, scientific computing, and cryptocurrency mining.</p>
+                <p>Unlike CPUs with a few powerful cores, GPUs have thousands of smaller cores that excel at parallel processing. This makes them ideal for tasks that can be broken down into many smaller operations, like rendering pixels or training neural networks.</p>
+
+                <!-- INTEGRATED GRAPHICS -->
+                <div class="class-section glass">
+                    <h4>Integrated Graphics</h4>
+                    <p class="class-subtitle">Purpose: Basic display, office work, light media</p>
+                    <p>Integrated graphics are built into the CPU. They share system RAM and are suitable for basic computing, web browsing, office work, and light video playback. They're power-efficient and reduce system cost.</p>
+
+                   
+                    <div class="image-grid">
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/inetggrap/uhd.webp"></span></div>
+                            <div class="img-name">Intel UHD Graphics</div>
+                            <div class="img-desc">Integrated graphics</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/inetggrap/radeaob.webp"></span></div>
+                            <div class="img-name">AMD Radeon Graphics</div>
+                            <div class="img-desc">Integrated graphics</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/inetggrap/iris.webp"></span></div>
+                            <div class="img-name">Intel Iris Xe</div>
+                            <div class="img-desc">Integrated graphics</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/inetggrap/680.webp"></span></div>
+                            <div class="img-name">AMD Radeon 680M</div>
+                            <div class="img-desc">Integrated graphics</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/inetggrap/arc.webp"></span></div>
+                            <div class="img-name">Intel Arc Graphics</div>
+                            <div class="img-desc">Integrated graphics</div>
+                        </div>
+                    </div>
+
+                    <table class="specs-table">
+                        <tr><th>VRAM</th><td>Shared system memory</td></tr>
+                        <tr><th>Target Users</th><td>Office workers, students, basic users</td></tr>
+                        <tr><th>Advantages</th><td>Low cost, power efficient, no dedicated GPU needed</td></tr>
+                        <tr><th>Limitations</th><td>Poor gaming performance, limited for creative work</td></tr>
+                    </table>
+                </div>
+
+                <!-- ENTRY LEVEL GPU -->
+                <div class="class-section glass">
+                    <h4>Entry Level GPU</h4>
+                    <p class="class-subtitle">Purpose: Light gaming, media consumption</p>
+                    <p>Entry-level dedicated GPUs provide a significant upgrade over integrated graphics. They enable light gaming, smooth video playback, and basic creative work at 1080p resolution.</p>
+
+                
+                    <div class="image-grid">
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/entry/1650.webp"></span></div>
+                            <div class="img-name">NVIDIA GTX 1650</div>
+                            <div class="img-desc">Entry-level GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/entry/rx.webp"></span></div>
+                            <div class="img-name">AMD Radeon RX 6500 XT</div>
+                            <div class="img-desc">Entry-level GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/entry/3050.webp"></span></div>
+                            <div class="img-name">NVIDIA RTX 3050</div>
+                            <div class="img-desc">Entry-level GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/entry/64.webp"></span></div>
+                            <div class="img-name">AMD Radeon RX 6400</div>
+                            <div class="img-desc">Entry-level GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/entry/arc.webp"></span></div>
+                            <div class="img-name">Intel Arc A380</div>
+                            <div class="img-desc">Entry-level GPU</div>
+                        </div>
+                    </div>
+
+                    <table class="specs-table">
+                        <tr><th>VRAM</th><td>4-6 GB</td></tr>
+                        <tr><th>Target Users</th><td>Casual gamers, budget builders</td></tr>
+                        <tr><th>Advantages</th><td>Affordable, good for 1080p gaming</td></tr>
+                        <tr><th>Limitations</th><td>Limited for modern games, no ray tracing</td></tr>
+                    </table>
+                </div>
+
+                <!-- MID RANGE GPU -->
+                <div class="class-section glass">
+                    <h4>Mid Range GPU</h4>
+                    <p class="class-subtitle">Purpose: 1080p/1440p gaming, content creation</p>
+                    <p>Mid-range GPUs offer excellent performance for 1080p and 1440p gaming. They handle modern games at high settings, support ray tracing, and are capable for video editing and 3D work.</p>
+
+              
+                    <div class="image-grid">
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/mid/4060.webp"></span></div>
+                            <div class="img-name">NVIDIA RTX 4060</div>
+                            <div class="img-desc">Mid-range GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/mid/xt 7600.webp"></span></div>
+                            <div class="img-name">AMD Radeon RX 7600 XT</div>
+                            <div class="img-desc">Mid-range GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/mid/3060.webp"></span></div>
+                            <div class="img-name">NVIDIA RTX 3060 Ti</div>
+                            <div class="img-desc">Mid-range GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/mid/xt 7600.webp"></span></div>
+                            <div class="img-name">AMD Radeon RX 6700 XT</div>
+                            <div class="img-desc">Mid-range GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/mid/arc750.webp"></span></div>
+                            <div class="img-name">Intel Arc A750</div>
+                            <div class="img-desc">Mid-range GPU</div>
+                        </div>
+                    </div>
+
+                    <table class="specs-table">
+                        <tr><th>VRAM</th><td>8-12 GB</td></tr>
+                        <tr><th>Target Users</th><td>Gamers, content creators</td></tr>
+                        <tr><th>Advantages</th><td>Great value, handles 1440p gaming</td></tr>
+                        <tr><th>Limitations</th><td>May struggle with 4K gaming</td></tr>
+                    </table>
+                </div>
+
+                <!-- HIGH END GPU -->
+                <div class="class-section glass">
+                    <h4>High End GPU</h4>
+                    <p class="class-subtitle">Purpose: 4K gaming, heavy creative workloads</p>
+                    <p>High-end GPUs deliver exceptional 4K gaming performance and are ideal for professionals working with video, 3D, and AI. They offer advanced ray tracing, DLSS/FSR support, and massive VRAM for complex projects.</p>
+
+              
+                    <div class="image-grid">
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><img src="gpu/high/4070.webp"></span></div>
+                            <div class="img-name">NVIDIA RTX 4070 Ti</div>
+                            <div class="img-desc">High-end GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/high/7900.webp">/span></div>
+                            <div class="img-name">AMD Radeon RX 7900 XT</div>
+                            <div class="img-desc">High-end GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/high/4080.webp"></span></div>
+                            <div class="img-name">NVIDIA RTX 4080</div>
+                            <div class="img-desc">High-end GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/high/7900xtx.webp"></span></div>
+                            <div class="img-name">AMD Radeon RX 7900 XTX</div>
+                            <div class="img-desc">High-end GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/high/super.webp"></span></div>
+                            <div class="img-name">NVIDIA RTX 4070 Super</div>
+                            <div class="img-desc">High-end GPU</div>
+                        </div>
+                    </div>
+
+                    <table class="specs-table">
+                        <tr><th>VRAM</th><td>12-20 GB</td></tr>
+                        <tr><th>Target Users</th><td>Enthusiast gamers, professionals</td></tr>
+                        <tr><th>Advantages</th><td>Excellent performance, handles 4K</td></tr>
+                        <tr><th>Limitations</th><td>Expensive, requires good cooling</td></tr>
+                    </table>
+                </div>
+
+                <!-- ENTHUSIAST GPU -->
+                <div class="class-section glass">
+                    <h4>Enthusiast GPU</h4>
+                    <p class="class-subtitle">Purpose: Maximum performance, professional rendering, AI</p>
+                    <p>Enthusiast GPUs are the absolute pinnacle of graphics performance. They're designed for 8K gaming, professional rendering, AI training, and scientific computing. These cards have massive VRAM and are incredibly powerful.</p>
+
+                  
+                    <div class="image-grid">
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/enthusiast/4090.webp"></span></div>
+                            <div class="img-name">NVIDIA RTX 4090</div>
+                            <div class="img-desc">Enthusiast GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/enthusiast/ada.webp"></span></div>
+                            <div class="img-name">NVIDIA RTX 6000 Ada</div>
+                            <div class="img-desc">Professional GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/enthusiast/w7900.webp"></span></div>
+                            <div class="img-name">AMD Radeon Pro W7900</div>
+                            <div class="img-desc">Professional GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/enthusiast/a100.webp"></span></div>
+                            <div class="img-name">NVIDIA A100</div>
+                            <div class="img-desc">AI/Data center GPU</div>
+                        </div>
+                        <div class="image-card glass glass-hover">
+                            <div class="img-placeholder"><span><img src="gpu/enthusiast/mi300x.webp"></span></div>
+                            <div class="img-name">AMD Instinct MI300X</div>
+                            <div class="img-desc">AI/Data center GPU</div>
+                        </div>
+                    </div>
+
+                    <table class="specs-table">
+                        <tr><th>VRAM</th><td>24-48+ GB</td></tr>
+                        <tr><th>Target Users</th><td>Professionals, researchers, extreme gamers</td></tr>
+                        <tr><th>Advantages</th><td>Maximum performance, handles any workload</td></tr>
+                        <tr><th>Limitations</th><td>Extremely expensive, requires premium PSU</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
